@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#playButton {
+    background-color: #4CAF50;
+}
+
+#playButton:hover {
+    background-color: #45a049;
+}
+
+#quitButton {
+    background-color: #f44336;
+}
+
+#quitButton:hover {
+    background-color: #da190b;
+}
